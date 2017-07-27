@@ -17,13 +17,15 @@
 
 <section class="conA">
 	<div class="container">
-			<h1>CaesarShiftCipher</h1>
-			<strong>-目次-</strong>
-			<ol>
-			<li>CaesarShiftCipherとは...</li>
-			<li>暗号の仕組み ～ 暗号化と復号化</li>
-			<li>CaesarShiftCipherの使い方</li>
-			</ol>
+		<h1>CaesarShiftCipher</h1>
+	</div>
+	<div class="container">
+		<strong>-目次-</strong>
+		<ol>
+		<li>CaesarShiftCipherとは...</li>
+		<li>暗号の仕組み ～ 暗号化と復号化</li>
+		<li>CaesarShiftCipherの使い方</li>
+		</ol>
 	</div>
 </section>
 
@@ -36,11 +38,8 @@
 				正確には"単一換字式暗号"の一種で、ガイウス・ユリウス・カエサルが実際に使用したと言われている、シーザー暗号の仕組み（暗号アルゴリズム）を模倣したものです。</p>
 		</div>
 	</div>
-</section>
 
-<section class="conB">
 	<div class="container">
-		<div class="photo"></div>
 		<div class="text">
 		<h3>2.暗号の仕組み ～ 暗号化と復号化</h3>
 			<p>ここではCaesarShiftCipherがどのようにして、平文を暗号化して、暗号文を復号化しているのかを説明したいと思います。</p>
@@ -57,23 +56,29 @@
 					先の例では、鍵は"１"として暗号文"bca"を作りました。この操作はアルファベット順を右に1文字ずらしていますので、左に1文字ずらせば元の平文に復号化出来ます。</p>
 		</div>
 	</div>
-</section>
 
-<section class="conB">
 	<div class="container">
-		<div class="photo"></div>
 		<div class="text">
 		<h3>3.当サイトCaesarShiftCipherの使い方</h3>
 			<p></p>
-
-		<a href="http://localhost/CaesarShiftCipher/CaesarShiftCipher">これを使ってみる</a><br><br>
+		<a href="http://localhost/CaesarShiftCipher/CaesarShiftCipher">これを使ってみる</a>
 		<a href="/CipherProject/">HOMEに戻る</a>
 		</div>
 	</div>
 </section>
 
-
-
+<footer>
+	<div class="container">
+		<div class="footA">
+			<h2>CipherProject</h2>
+			<p>作成者：渡利蘭太</p>
+			<p>
+			Hello!!CipherProject!!webサイトを作ってみました。<br>
+			タイトルに特別な意味はありません。
+			</p>
+		</div>
+	</div>
+</footer>
 
 </body>
 </html>

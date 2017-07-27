@@ -13,9 +13,9 @@ body{
 	font-family:'メイリオ','Hiragino Kaku Gothic Pro',sans-serif;
 }
 
-/* ###################################	.header	####################################### */
+/* ###################################	header	####################################### */
 
-.header{
+header{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -43,6 +43,7 @@ body{
 /* ###################################	.conA	####################################### */
 .conA{
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	height: 40vh;
@@ -59,14 +60,14 @@ body{
 	margin-top: 0;
 	margin-bottom: 20px;
 	font-family: Monotype Corsiva;
-	font-size:50px;
+	font-size:60px;
 }
 
 .conA strong{
 	margin-top: 0;
 	margin-bottom: 20px;
 	font-family: Monotype Corsiva;
-	font-size:20px;
+	font-size:18px;
 }
 
 .conA ol{
@@ -75,11 +76,15 @@ body{
 	font-size:15px;
 }
 
-@media(min-width:768px){
+/*@media(min-width:768px){
 	.conA h1{
 		font-size: 75px;
 	}
-}
+	.conA .container{
+		display: flex;
+		flex: 1;
+	}
+} */
 
 /* ###################################	.conB	####################################### */
 .conB .container{
@@ -113,37 +118,7 @@ body{
 	font-size:12px;
 }
 
-.urlB{
-	color: #0000ff;
-	text-decoration: none;
-}
-
-.urlA{
-	display: inline-block;
-	margin-top: 20px;
-	padding: 7.5px 13px;
-	border: solid 2px currentColor;
-	border-radius: 6px;
-	background-color: #fff;
-	font-size:13px;
-	color: #000000;
-	text-decoration: none;
-}
-
-.conB a:hover{
-	background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25));
-}
-
-@media(min-width:768px){
-	.conB .container{
-		display: flex;
-	}
-	.conB .text{
-		flex: 1;
-	}
-}
-
-/* ###################################	.conB	####################################### */
+/* ###################################	footer	####################################### */
 footer{
 	color: #fff;
 	background-color: #2B5566;
@@ -165,3 +140,4 @@ footer .container{
 	margin-bottom: 0px;
 	font-size: 13px;
 }
+
