@@ -46,9 +46,9 @@ header{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 40vh;
+	height: 30vh;
 	min-height: 300px;
-	background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url('../img/bombe.jpg');
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../img/caesar.jpg');
 	background-position: center;
 	background-size: cover;
 	color: #fff;
@@ -116,6 +116,13 @@ header{
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size:12px;
+}
+
+.conB .photoA {
+	min-height: 500px;
+	background-image: url('../img/CaesarShiftCipher_gigure_1.jpg');
+	background-position: center;
+	background-size: cover;
 }
 
 /* ###################################	footer	####################################### */

@@ -31,7 +31,6 @@
 
 <section class="conB">
 	<div class="container">
-		<div class="photo"></div>
 		<div class="text">
 		<h3>1.CaesarShiftCipherとは...</h3>
 			<p>当サイトで紹介しているCaesarShiftCipherは私の造語で一般的ではありません。<br>
@@ -46,7 +45,7 @@
 			<h4>暗号化</h4>
 				<p>CaesarShiftCipherはとてもシンプルな方法で暗号です。<br>
 					例えば、"abz"（平文）を暗号化したいとしましょう。この平文"abz"は鍵（key）を"1"にしたとき暗号文"bca"に変換されます（図.1）。</p>
-				<p>平　文 :　a b z<br>↓<br>鍵=１<br>↓<br>暗号文:　b c a</p>
+				<div class="photoA"></div>
 				<p>平文から暗号文へどのように変化したでしょうか？<br>
 					鍵の"1"に注目して、アルファベットの順番を思い出してください...。<br>
 					これはアルファベット順の各アルファベットの位置を1文字分ずらしたことと同意です。鍵の数字を指定することでアルファベット順を何文字分ずらすか決定できます（図.2）。</p>
