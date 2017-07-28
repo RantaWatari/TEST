@@ -9,11 +9,13 @@
 </head>
 <body>
 
+
 <header class="header">
 	<div class="container">
-	<a class="headA" href="/CipherProject/">CipherProject</a>
+		<a class="headA" href="/CipherProject/">CipherProject</a>
 	</div>
 </header>
+
 
 <section class="conA">
 	<div class="container">
@@ -29,6 +31,7 @@
 	</div>
 </section>
 
+
 <section class="conB">
 	<div class="container">
 		<div class="text">
@@ -37,7 +40,6 @@
 					正確には"単一換字式暗号"の一種で、ガイウス・ユリウス・カエサルが実際に使用したと言われている、シーザー暗号の仕組み（暗号アルゴリズム）を模倣したものです。</p>
 		</div>
 	</div>
-
 	<div class="container">
 		<div class="photoA"></div>
 		<div class="text">
@@ -46,24 +48,34 @@
 				<h4>暗号化</h4>
 					<p>CaesarShiftCipherはとてもシンプルな方法で暗号です。<br>
 						例えば、"abz"（平文）を暗号化したいとしましょう。この平文"abz"は鍵（key）を"1"にしたとき暗号文"bca"に変換されます（図.1）。</p>
+
+					<!-- H.29.7.28 Fri  CSSに書きたかったが、あまりに調整が難しいので断念した...。 -->
+					<legend>図.1</legend>
+					<img src="img/CaesarShiftCipher_gigure_1.jpg"alt="fig.1">
+
 					<p>平文から暗号文へどのように変化したでしょうか？<br>
 						鍵の"1"に注目して、アルファベットの順番を思い出してください...。<br>
 						これはアルファベット順の各アルファベットの位置を1文字分ずらしたことと同意です。鍵の数字を指定することでアルファベット順を何文字分ずらすか決定できます（図.2）。</p>
+
+					<!-- H.29.7.28 Fri  CSSに書きたかったが、あまりに調整が難しいので断念した...。 -->
+					<legend>図.2</legend>
+					<img src="img/CaesarShiftCipher_gigure_2.jpg" alt="fig.2">
+
 				<h4>復号化</h4>
 					<p>暗号化ではアルファベット順に対応する各文字を鍵に指定した数の分だけずらすというものでした。復号化はこの逆の操作を行なえば良いわけです。<br>
 						先の例では、鍵は"１"として暗号文"bca"を作りました。この操作はアルファベット順を右に1文字ずらしていますので、左に1文字ずらせば元の平文に復号化出来ます。</p>
 		</div>
 	</div>
-
 	<div class="container">
 		<div class="text">
-		<h3>3.当サイトCaesarShiftCipherの使い方</h3>
-			<p></p>
-		<a href="http://localhost/CaesarShiftCipher/CaesarShiftCipher">これを使ってみる</a>
-		<a href="/CipherProject/">HOMEに戻る</a>
+			<h3>3.当サイトCaesarShiftCipherの使い方</h3>
+				<p></p>
+			<a href="http://localhost/CaesarShiftCipher/CaesarShiftCipher">これを使ってみる</a>
+			<a href="/CipherProject/">HOMEに戻る</a>
 		</div>
 	</div>
 </section>
+
 
 <footer>
 	<div class="container">

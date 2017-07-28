@@ -79,7 +79,7 @@ header{
 /* ###################################	.conB	####################################### */
 
 .conB{
-	margin: 50px;
+	margin: 10px 80px;
 }
 
 .conB .text{
@@ -106,12 +106,19 @@ header{
 	opacity: 0.9;
 }
 
+.conB img{
+	 width: 400px;
+	 height: 225px;
+}
+
 /*
 .conB .photoA{
 	min-height: 500px;
-	background-image: url('../img/CaesarShiftCipher_gigure_1.jpg');
+	min-wdith: 100%;
+/*	background-image: url('../img/CaesarShiftCipher_gigure_1.jpg'); */
+	background-image: url('../img/caesar.jpg');
 	background-position: center;
-	background-size: auto;
+	background-size: cover;
 	border: solid 1px #000000;
 }
 */
@@ -136,6 +143,7 @@ header{
 		padding: 50px;
 	}
 */
+
 }
 
 
