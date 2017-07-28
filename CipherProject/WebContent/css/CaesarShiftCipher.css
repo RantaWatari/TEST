@@ -76,54 +76,10 @@ header{
 	font-size:15px;
 }
 
-/*@media(min-width:768px){
-	.conA h1{
-		font-size: 75px;
-	}
-	.conA .container{
-		display: flex;
-		flex: 1;
-	}
-} */
-
 /* ###################################	.conB	####################################### */
-.conB .container{
-	padding-top: 0px;
-	padding-bottom: 0px;
-}
 
-.conB .text{
-	text-align: left;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-bottom: 5px;
-}
 
-.conB h1{
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font-family: Monotype Corsiva;
-	font-size:40px;
-}
 
-.conB h3{
-	margin-top: 30px;
-	margin-bottom: 15px;
-	font-size:18px;
-}
-
-.conB p{
-	margin-top: 0;
-	margin-bottom: 0;
-	font-size:12px;
-}
-
-.conB .photoA {
-	min-height: 500px;
-	background-image: url('../img/CaesarShiftCipher_gigure_1.jpg');
-	background-position: center;
-	background-size: cover;
-}
 
 /* ###################################	footer	####################################### */
 footer{
