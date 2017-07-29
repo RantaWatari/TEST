@@ -79,11 +79,43 @@ header{
 /* ###################################	.conB	####################################### */
 
 .conB{
-	margin: 10px 80px;
+	margin: 0px 0px;
+	color: #fff;
+	background-color: #373737;
 }
 
-.conB .text{
-	padding: 20px;
+.conB .photoA{
+	min-height: 450px;
+/*	background-image: url('../img/CaesarShiftCipher_gigure_1.jpg'); */
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../img/caesar.jpg');
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align:center;
+/*	border: solid 1px #000000; */
+}
+
+.photoA h1{
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-family: Monotype Corsiva;
+	font-size:40px;
+}
+
+.photoA strong{
+	margin-top: 0;
+	margin-bottom: 0px;
+	font-family: Monotype Corsiva;
+	font-size:15px;
+}
+
+.photoA ol{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size:14px;
 }
 
 .conB h3{
@@ -103,7 +135,6 @@ header{
 	margin-bottom: 20px;
 	font-size: 12px;
 	line-height: 1.8;
-	opacity: 0.9;
 }
 
 .conB img{
@@ -111,17 +142,22 @@ header{
 	 height: 225px;
 }
 
-/*
-.conB .photoA{
-	min-height: 500px;
-	min-wdith: 100%;
-/*	background-image: url('../img/CaesarShiftCipher_gigure_1.jpg'); */
-	background-image: url('../img/caesar.jpg');
-	background-position: center;
-	background-size: cover;
-	border: solid 1px #000000;
+.urlA{
+	display: inline-block;
+	margin-top: 20px;
+	padding: 7.5px 13px;
+	border: solid 2px currentColor;
+	border-radius: 6px;
+	background-color: #fff;
+	font-size:13px;
+	color: #000000;
+	text-decoration: none;
 }
-*/
+
+.conB a:hover{
+	background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25));
+}
+
 
 @media (min-width: 768px){
 	.conB .container{
@@ -132,18 +168,19 @@ header{
 		margin-right: auto;
 	}
 
-/*
 	.conB .photoA{
-		flex: 1;
-		padding: 0px;
+		flex: 3;
+/*		border: solid 1px #000000; */
 	}
 
 	.conB .text{
-		flex: 1;
-		padding: 50px;
+		flex: 5;
+		padding: 70px 50px;
+		width: flex;
+		height: 450px;
+		overflow:auto;
+/*		border: solid 1px #000000; */
 	}
-*/
-
 }
 
 
