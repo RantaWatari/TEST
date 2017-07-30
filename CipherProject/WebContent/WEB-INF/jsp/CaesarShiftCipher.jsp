@@ -46,6 +46,7 @@
 		<li>CaesarShiftCipherの使い方</li>
 		</ol>
 	</div>
+		<a class="urlA" href="http://localhost/CaesarShiftCipher/CaesarShiftCipher">これを使ってみる</a>
 	</div>
 		<div class="text">
 			<h3>1.CaesarShiftCipherとは...</h3>
@@ -60,7 +61,7 @@
 
 					<!-- H.29.7.28 Fri  CSSに書きたかったが、あまりに調整が難しいので断念した...。 -->
 					<legend>図.1</legend>
-					<img src="img/CaesarShiftCipher_gigure_1.jpg"alt="fig.1">
+					<img class="imgA" src="img/CaesarShiftCipher_gigure_1.jpg"alt="fig.1">
 
 					<p>平文から暗号文へどのように変化したでしょうか？<br>
 						鍵の"1"に注目して、アルファベットの順番を思い出してください...。<br>
@@ -68,15 +69,22 @@
 
 					<!-- H.29.7.28 Fri  CSSに書きたかったが、あまりに調整が難しいので断念した...。 -->
 					<legend>図.2</legend>
-					<img src="img/CaesarShiftCipher_gigure_2.jpg" alt="fig.2">
-
+					<img class="imgA" src="img/CaesarShiftCipher_gigure_2.jpg" alt="fig.2">
 				<h4>復号化</h4>
 					<p>暗号化ではアルファベット順に対応する各文字を鍵に指定した数の分だけずらすというものでした。復号化はこの逆の操作を行なえば良いわけです。<br>
 						先の例では、鍵は"１"として暗号文"bca"を作りました。この操作はアルファベット順を右に1文字ずらしていますので、左に1文字ずらせば元の平文に復号化出来ます。</p>
 
 			<h3>3.当サイトCaesarShiftCipherの使い方</h3>
-				<p></p>
-			<a class="urlA" href="http://localhost/CaesarShiftCipher/CaesarShiftCipher">これを使ってみる</a>
+				<img class="imgB" src="img/CaesarShiftCipher_page.jpg" alt="CaesarShiftCipher_page"><br><br>
+				<p>ここではCaesarShiftCipherの使い方の手順について説明します。</p>
+				<ol>
+				<li type="I">"1."では、あなたのメッセージを暗号化（encrypt）または復号化（decrypt）するのかを選択してください。</li><br>
+				<li type="I">"2."では、暗号化（または復号化）に使う鍵を選択してください。鍵は0～25まであります。鍵の数は"2.暗号の仕組み ～ 暗号化と復号化"で
+					説明した図.2の通常のアルファベット順に対して、何文字分ずらすのかを指示しています。</li><br>
+				<li type="I">"3."では、あなたのメッセージを入れてください。ただし、暗号化（または復号化）できるのはアルファベットの小文字（a-z）と大文字（A-Z）のみとなっております。</li><br>
+				<li type="I">テキストフォームの下にある"Encrypt or Decrypt"のフォーム入力ボタンで"1.と2."の設定に基づいて"3."のテキストフォームに入力されたメッセージを
+					暗号化（または復号化）します。"Erasing"はテキストフォームのメッセージを消去できます。結果は別途にWebページが表示されます。</li>
+				</ol>
 		</div>
 	</div>
 </section>

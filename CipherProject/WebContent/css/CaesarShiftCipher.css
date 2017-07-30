@@ -137,10 +137,17 @@ header{
 	line-height: 1.8;
 }
 
-.conB img{
+
+.conB .imgA {
 	 width: 400px;
 	 height: 225px;
 }
+
+.conB .imgB {
+	 width: 550px;
+	 height: 322px;
+}
+
 
 .urlA{
 	display: inline-block;
