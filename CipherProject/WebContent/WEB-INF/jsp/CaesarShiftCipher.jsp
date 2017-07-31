@@ -16,23 +16,8 @@
 	</div>
 </header>
 
-<!--
-<section class="conA">
-	<div class="container">
-		<h1>CaesarShiftCipher</h1>
-	</div>
-	<div class="container">
-		<strong>-目次-</strong>
-		<ol>
-		<li>CaesarShiftCipherとは...</li>
-		<li>暗号の仕組み ～ 暗号化と復号化</li>
-		<li>CaesarShiftCipherの使い方</li>
-		</ol>
-	</div>
-</section>
--->
 
-<section class="conB">
+<section class="con">
 	<div class="container">
 	<div class="photoA">
 	<div class="container">

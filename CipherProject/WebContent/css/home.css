@@ -23,17 +23,17 @@ body{
 	width: 100%;
 	background-color: rgba(255,255,255,0.75);
 }
+
 .headA{
 	display: inline-block;
-	line-height: 35px;
+	line-height: 30px;
 	padding-left: 15px;
 	padding-right: 15px;
 	background-color: var(--accent-color);
 	color: #000000;
 	font-family: Monotype Corsiva;
-	font-size: 19.9px;
+	font-size: 18px;
 	text-decoration: none;
-
 }
 
 .header a:hover{
