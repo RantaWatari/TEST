@@ -50,7 +50,7 @@ header{
 
 .con .photoA{
 	min-height: 500px;
-	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../img/Enigma-jpeg/enigma.jpg');
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../img/ViginereCipher-jpeg/Confederate_cipher_disk.jpg');
 	background-position: center;
 	background-size: cover;
 	display: flex;
