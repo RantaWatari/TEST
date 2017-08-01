@@ -24,7 +24,7 @@ public class Cipher extends HttpServlet {
 			RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/CaesarShiftCipher.jsp");
 			dispatcher.forward(request, response);
 		}else if(pageNum == 2){
-			RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/ViginereCipher.jsp");
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/VigenereCipher.jsp");
 			dispatcher.forward(request, response);
 		}else if(pageNum == 3){
 			RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/Enigma.jsp");

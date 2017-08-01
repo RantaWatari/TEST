@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="css/ViginereCipher.css"  type="text/css" media="screen" />
+<link rel="stylesheet" href="css/VigenereCipher.css"  type="text/css" media="screen" />
 
 
 
-<title>ViginereCipher-Page</title>
+<title>VigenereCipher-Page</title>
 </head>
 <body>
 
@@ -24,20 +24,20 @@
 	<div class="container">
 	<div class="photoA">
 	<div class="container">
-		<h1>ViginereCipher</h1>
+		<h1>VigenereCipher</h1>
 	</div>
 	<div class="container">
 		<ol>
 		<strong>-目次-</strong>
-		<li>ViginereCipherとは...</li>
+		<li>VigenereCipherとは...</li>
 		<li>暗号の仕組み ～ 暗号化と復号化</li>
-		<li>ViginereCipherの使い方</li>
+		<li>VigenereCipherの使い方</li>
 		</ol>
 	</div>
 		<a class="urlA" href="http://localhost/VigenereCipher/VigenereCipher">これを使ってみる</a>
 	</div>
 		<div class="text">
-			<h3>1.ViginereCipherとは...</h3>
+			<h3>1.VigenereCipherとは...</h3>
 				<p>text...</p>
 
 			<h3>2.暗号の仕組み ～ 暗号化と復号化</h3>
@@ -46,11 +46,11 @@
 					<p>text...</p>
 				<h4>復号化</h4>
 					<p>text...</p>
-			<h3>3.当サイトViginereCipherの使い方</h3>
+			<h3>3.当サイトVigenereCipherの使い方</h3>
 <!--
 				<img class="imgB" src="img/Enigma_page.jpg" alt="CaesarShiftCipher_page"><br><br>
 -->
-				<p>ここではViginereCipherの使い方の手順について説明します。</p>
+				<p>ここではVigenereCipherの使い方の手順について説明します。</p>
 				<ol>
 				<li type="I"></li><br>
 				<li type="I"></li><br>

@@ -66,15 +66,22 @@ background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3));
 }
 
 .conA a {
-display:inline-block;
-border-radius:6px;
-background-color:var(--accent-color);
-color:var(--text-bright-color);
-font-size:12px;
-text-decoration:none;
-padding:2.5px 5px;
+	display: inline-block;
+	padding: 3.5px 7.5px;
+	border: solid 2px currentColor;
+	border-radius: 6px;
+	background-color: #fff;
+	background-color: var(--accent-color);
+	color: #fff;
+	color: var(--text-bright-color);
+	font-size: 12px;
+	text-decoration: none;
 }
 
-.header a:hover,.conA a:hover {
+.header a:hover{
 text-decoration:underline;
+}
+
+.conA a:hover{
+	background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3));
 }

@@ -14,7 +14,7 @@
 String c = "あ";
 int code = (int)'あ';
 String Num = "\u0041\u0042\u0043\u0044\u0045\u0021\u003F";
-String aiueo = "\u3042\u3044\u3046\u3048\u304A\u0021\u003F" + "-> \\u0031";
+String aiueo = "\u3042\u3044\u3046\u3048\u304A\u0021\u003F" + "-> \u0031";
 String ezipt = "\\u0031";
 String eziptA = "\\u0031";
 
