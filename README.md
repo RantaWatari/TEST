@@ -8,10 +8,10 @@
 
 
 ## 重要事項
-*.gitignoereの処理（無視の対象に加える操作）は必ずgit-bash.exeで行なう事。また、再び管理対象にするためには、C:\Users\USERに配置されている。.gitigone_globalから行なうことが可能。
+* .gitignoereの処理（無視の対象に加える操作）は必ずgit-bash.exeで行なう事。また、再び管理対象にするためには、C:\Users\USERに配置されている。.gitigone_globalから行なうことが可能。
 
 
-##追加
+## 追加
 * 暗号の特徴や弱点を説明のページに追加したい。
 
 
